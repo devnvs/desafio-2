@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-logo {
+    height: 500px;
+    width: 595px;
+    margin-left: 121px;
+    margin-top: 140px;
+    display: inline-block;
+}
+
+.header-buttons {
+    cursor: pointer;
+    font-weight: 400;
+    height: 20px;
+    width: 87px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 47px;
+    margin-left: 42px;
+    color: #17233D;
+}
+
+.button-signup {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    height: 51px;
+    width: 124px;
+    margin-top: 13px;
+    margin-left: 28px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    height: 164px;
+    color: #161A49;
+    margin-bottom: 47px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    height: 99px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+.main-link {
+    font-size: 18px;
+    font-weight: 500;
+    width: 112px;
+    height: 27px;
+    top: 707px;
+    left: 801px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+
+    section {
+        margin-left: 0;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .button-signup {
+        position: fixed;
+        display: block;
+        margin: 23px 25px 800px 356px;
+    }
+
+    .main-logo {
+        position: fixed;
+        display: block;
+        width: 100%;
+        margin: 550px auto 22px auto;
+    }
+
+    .main-link {
+        display: block;
+        margin: 26px auto 59px auto;
+        text-align: center;
+    }
+
+    h1 {
+        display: block;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.60px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 124px auto auto auto;
+        padding: 20px 50px;
+    }
+
+    p {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.7px;
+        margin-top: 29px;
+    }
+}
